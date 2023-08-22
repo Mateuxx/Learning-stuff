@@ -1,0 +1,11 @@
+
+-> Codigo Firebase -> PAPER
+
+       data = {dtype: valor,
+                'time_created': datetime.datetime.now()}
+        result = firebaseApp.post('/'+END_DEVICE_NAME+'/Sensor/'+dtype+'/', data)
+        print("Firebase post result: \n\t")
+        print(result)
+        return True
+    except Exception as e:
+        return False

@@ -1,0 +1,24 @@
+package br.edu.ufam.icomp.lab_excecoes;
+
+public class Main {
+    public static void main(String[] args) {
+        // Testando a criação de uma Coordenada válida
+        Coordenada c1 = new Coordenada(10, 20, 3);
+        System.out.println("Coordenada 1: " + c1);
+
+        // Testando a criação de uma Coordenada com posX negativo
+        Coordenada c2 = new Coordenada(-5, 30, 7);
+
+        // Testando a criação de uma Coordenada com posY fora dos limites
+        Coordenada c3 = new Coordenada(40, 30001, 4);
+
+        // Testando a criação de uma Coordenada com digito inválido
+        Coordenada c4 = new Coordenada(15, 25, 2);
+
+        // Testando o cálculo da distância entre coordenadas
+        Coordenada c5 = new Coordenada(10, 10, 9);
+        Coordenada c6 = new Coordenada(20, 20, 9);
+        double distancia = c5.distancia(c6);
+        System.out.println("Distância entre c5 e c6: " + distancia);
+    }
+}

@@ -1,0 +1,12 @@
+package br.edu.ufam.icomp.lab_excecoes;
+
+public class RoverCoordenadaException {
+	
+	public RoverCoordenadaException () {
+		super ("Exceção geral do rover");
+	}
+	
+	public RoverCoordenadaException (String message) {
+		super(message);
+	}
+}

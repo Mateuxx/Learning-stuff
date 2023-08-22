@@ -1,0 +1,13 @@
+package br.edu.ufam.icomp.lab_excecoes;
+
+public class RoverException extends Exception {
+	
+	public RoverException () {
+		super ("Sei la qualquer parada");
+	}
+	
+	public RoverException (String message) {
+		super(message);
+	}
+	
+}

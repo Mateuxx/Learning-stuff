@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+/home/mateusnobrega/Desktop/UFAM/TAP/LAB09/.metadata/.plugins/org.eclipse.jdt.core
+1865797976.index
+2181963577.index
+1399897567.index
